@@ -1,1 +1,2 @@
-# Specific guidance will be updated in the future
+# Data recording system of vehicle information based on license plate recognition in Leapmoter4s shop
+Specific guidance will be updated in the future...
