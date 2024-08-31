@@ -1,0 +1,79 @@
+{
+  "groups": [
+    {
+      "name": "leapmotor4s",
+      "type": "com.leapmotor4s.common.config.Leapmotor4sConfig",
+      "sourceType": "com.leapmotor4s.common.config.Leapmotor4sConfig"
+    },
+    {
+      "name": "oss",
+      "type": "com.leapmotor4s.system.config.MinioProperties",
+      "sourceType": "com.leapmotor4s.system.config.MinioProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "leapmotor4s.cache-lazy",
+      "type": "java.lang.Boolean",
+      "description": "缓存懒加载",
+      "sourceType": "com.leapmotor4s.common.config.Leapmotor4sConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "leapmotor4s.copyright-year",
+      "type": "java.lang.String",
+      "description": "版权年份",
+      "sourceType": "com.leapmotor4s.common.config.Leapmotor4sConfig"
+    },
+    {
+      "name": "leapmotor4s.name",
+      "type": "java.lang.String",
+      "description": "项目名称",
+      "sourceType": "com.leapmotor4s.common.config.Leapmotor4sConfig"
+    },
+    {
+      "name": "leapmotor4s.version",
+      "type": "java.lang.String",
+      "description": "版本",
+      "sourceType": "com.leapmotor4s.common.config.Leapmotor4sConfig"
+    },
+    {
+      "name": "oss.access-key",
+      "type": "java.lang.String",
+      "description": "Access key 账户ID",
+      "sourceType": "com.leapmotor4s.system.config.MinioProperties"
+    },
+    {
+      "name": "oss.bucket-name",
+      "type": "java.lang.String",
+      "description": "默认的存储桶名称",
+      "sourceType": "com.leapmotor4s.system.config.MinioProperties",
+      "defaultValue": "carimage"
+    },
+    {
+      "name": "oss.endpoint",
+      "type": "java.lang.String",
+      "description": "对象存储服务的URL",
+      "sourceType": "com.leapmotor4s.system.config.MinioProperties"
+    },
+    {
+      "name": "oss.file-ext",
+      "type": "java.util.List<java.lang.String>",
+      "description": "可上传的文件后缀名",
+      "sourceType": "com.leapmotor4s.system.config.MinioProperties"
+    },
+    {
+      "name": "oss.name",
+      "type": "java.lang.String",
+      "description": "对象存储名称",
+      "sourceType": "com.leapmotor4s.system.config.MinioProperties"
+    },
+    {
+      "name": "oss.secret-key",
+      "type": "java.lang.String",
+      "description": "Secret key 密码",
+      "sourceType": "com.leapmotor4s.system.config.MinioProperties"
+    }
+  ],
+  "hints": []
+}
